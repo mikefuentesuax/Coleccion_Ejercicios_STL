@@ -18,8 +18,8 @@ int main(){
     cout << "Area de un rectangulo: " << geometria::rectangulo(5, 3) << std::endl;
     cout << "Area de un circulo: " << circulos::Circulo(5).calcularArea() << std::endl;
     cout << "Perimetro de un circulo: " << circulos::Circulo(5).calcularPerimetro() << std::endl;
-    cout << "Energia: " << ciencia::Ciencia::Fisica::calcularEnergia(5) << std::endl;
-    cout << "Fuerza: " << ciencia::Ciencia::Fisica::calcularFuerza(5, 3, 2) << std::endl;
-    cout << "Fuerza electrica: " << ciencia::Ciencia::Fisica::calcularFuerzaElectrica(5, 3, 2) << std::endl;
+    cout << "Energia: " << ciencia::Fisica::calcularEnergia(5) << std::endl;
+    cout << "Fuerza: " << ciencia::Fisica::calcularFuerza(5, 3, 2) << std::endl;
+    cout << "Fuerza electrica: " << ciencia::Fisica::calcularFuerzaElectrica(5, 3, 2) << std::endl;
     return 0;
 }
